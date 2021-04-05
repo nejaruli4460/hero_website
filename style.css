@@ -1,14 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap');
-.body{
-    position: fixed;
-    height: 100%;
-    width: 100%;
-}
-.logo{
-    Color:red;
-    font-size: 1.9rem;
-    font-family: 'Train One', cursive;
-
+body{
+    background-image: url("https://wonderfulengineering.com/wp-content/uploads/2014/07/background-wallpapers-10.jpg");
+    background-attachment: fixed;
 }
 .logo img{
     height: 3rem;
@@ -25,8 +18,9 @@
     font-size: 1.5rem;
 }
 .nav-link:hover{
-        color: black!important;
+        color: grey!important;
         transition: 0.5s;
+        font-size: 1.6rem;
 }
 .carousel-item img{
     width: 100%;
@@ -38,7 +32,6 @@
 }
 #about{
     font-size: 1.5rem;
-    background-image: url(https://i.pinimg.com/originals/73/de/b9/73deb96f4648afd8c08dce3ec9ab1872.jpg);
     margin: 1rem;
 }
 #about .container{
@@ -116,4 +109,40 @@ section h2{
 }
 .container{
     background-color: #fff;
+}
+section h2{
+    background-color: white;
+    height:3rem;
+    width:20rem;
+    margin: auto;
+    margin-top: 2rem;
+    border: 2px dotted goldenrod;
+    border-radius: 1rem;
+    text-transform: uppercase;
+    font-family: 'Train One', cursive;
+    
+}
+.toll{
+    color: red;
+    font-size: 1.5rem;
+    animation-name: number;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes number{
+    from{
+        color: red;
+    }
+    to{
+        color: salmon;
+    }
+}
+.footer{
+    height:5rem;
+    margin: auto;
+    color: greenyellow;
+}
+.footer a{
+    text-decoration: none;
+    color: salmon;
 }
