@@ -10,6 +10,7 @@ body{
     background-image: url("https://wonderfulengineering.com/wp-content/uploads/2014/07/background-wallpapers-10.jpg");
     background-attachment: fixed;
     position: relative;
+    overflow-x: hidden;
 }
 .logo img{
     height: 3rem;
