@@ -205,6 +205,9 @@ section h2{
         display: none;
     
     }
+    body{
+        overflow-x: hidden;
+    }
         
 }
 .background{
