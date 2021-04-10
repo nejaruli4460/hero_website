@@ -197,19 +197,6 @@ section h2{
 .office p{
     border-bottom: 1px dotted grey;
 }
-@media screen and(max-width:768px) {
-    .i-submit{
-        margin-left: 13%;
-    }
-    .background{
-        display: none;
-    
-    }
-    body{
-        overflow-x: hidden;
-    }
-        
-}
 .background{
     position: sticky;
     width: 35rem;
@@ -239,3 +226,16 @@ section h2{
     transition: 1s;
     cursor: default;
 }
+@media screen and(max-width:768px) {
+        .i-submit{
+            margin-left: 13%;
+        }
+        .background{
+            display: none;
+        
+        }
+        body{
+            overflow-x: hidden;
+        }
+            
+    }
