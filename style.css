@@ -9,6 +9,7 @@
 body{
     background-image: url("https://wonderfulengineering.com/wp-content/uploads/2014/07/background-wallpapers-10.jpg");
     background-attachment: fixed;
+    position: relative;
 }
 .logo img{
     height: 3rem;
@@ -199,5 +200,38 @@ section h2{
     .i-submit{
         margin-left: 13%;
     }
+    .background{
+        display: none;
+    
+    }
         
+}
+.background{
+    position: sticky;
+    width: 35rem;
+    height: 5rem;
+    overflow: hidden;
+    border-radius: 0px !important;
+    padding-left: 1rem;
+    left: 60%;
+    bottom: 10%;
+    border-left: 12px solid greenyellow;
+    transform: translateX(34rem);
+    background-color: grey;
+
+}
+ .background-image,.bg-img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    
+}
+.background-image button{
+    border-radius: 50%;
+    outline-style: none;
+}
+.background:hover{
+    transform: translateX(0rem);
+    transition: 1s;
+    cursor: default;
 }

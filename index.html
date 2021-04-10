@@ -13,9 +13,10 @@
     integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
   <!-- Adding CSS -->
   <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js"></script>
 </head>
 
-<body>
+<body id="body">
   <section id="home">
     <div class="container-fluid">
 
@@ -294,7 +295,7 @@
               <input type="email" class="i-email" placeholder="ENTER YOU EMAIL ID" required>
               <input type="text" class="i-subject" placeholder="SUBJECT" required>
               <input type="text" class="i-message" placeholder="WRITE YOUR MESSAGE" required>
-              <input type="submit" class="i-submit" value="SUBMIT YOUR MESSAGE">
+              <input type="submit" class="i-submit" id="abc" value="SUBMIT YOUR MESSAGE" onclick="fnc()">
           </form>
         </div>
       </div>
@@ -349,6 +350,28 @@
 
       <span><i class="fas fa-laptop-code"></i></span> Designed By <a href="https://github.com/nejaruli4460" target="_blank">@Nejarul</a>
     </h3>
+  </div>
+  <div class="container background">
+    <div class="row">
+      <div  class="col-md-2 background-image">
+        <button id="button1" type="button" class="bg-btn" onclick="myfun1()"><img class="bg-img" src="download.jpg" alt="image"></button>
+      </div>
+      <div class="col-md-2 background-image">
+        <button id="button2" type="button" class="bg-btn" onclick="myfun2()"><img class="bg-img" src="https://img.edilportale.com/product-thumbs/b_heritage-solid-color-wallpaper-nanni-giancarlo-c-356684-relaa3aafd2.jpg" alt="image"></button>
+      </div>
+      <div class="col-md-2 background-image">
+        <button id="button3" type="button" class="bg-btn" onclick="myfun3()"><img class="bg-img" src="https://wallpapercave.com/wp/wp1920741.jpg" alt="image"></button>
+      </div>
+      <div class="col-md-2 background-image">
+        <button id="button4" type="button" class="bg-btn" onclick="myfun4()"><img class="bg-img" src="https://cdn.hipwallpaper.com/i/30/79/uxEnq5.png" alt="image"></button>
+      </div>
+      <div class="col-md-2 background-image">
+        <button id="button5" type="button" class="bg-btn" onclick="myfun5()"><img class="bg-img" src="https://images.wallpaperscraft.com/image/solid_color_bright_lines_18572_1366x768.jpg" alt="image"></button>
+      </div>
+      <div class="col-md-2 background-image">
+        <button id="button6" type="button" class="bg-btn" onclick="myfun6()"><img class="bg-img" src="https://wonderfulengineering.com/wp-content/uploads/2014/07/background-wallpapers-10.jpg" alt="image"></button>
+      </div>
+    </div>
   </div>
   <!-- Bootstrap's Javascript -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
